@@ -1,6 +1,6 @@
 # Fast Fourier Transform(FFT)-nonImageData to Image
 
-##Introduction
+## Introduction
 
 This repository contains a python implementation of Fast Fourier Transformation(FFT) algorithm that converts non-image data into images. The FFT method has been used in a project: **Omics Imagification: Transforming High-throughout Molecular Representation of a Cell into an Image**.
 
@@ -8,13 +8,13 @@ This repository contains a python implementation of Fast Fourier Transformation(
 
 Each folder indicates a specific dataset in the experiment. In these folders, various normalisation and classifciation methods were conducted. The name of each .**ipynb** file should indicate the dataset, normalstion and classficaition used. 
 
-##Dataset
+## Dataset
 
 Specification of dataset used in the experiment are listed.
 
 ![dataset info](./Images/dataset_info.png)
 
-##Usage
+## Usage
 
 ```python
 import numpy as np
@@ -46,3 +46,4 @@ x_test_img = it.transform(x_test_norm)
 ## Sample Confusion Matrices
 
 ![confusion_mat1](./Images/confusion_mat1.png)
+
