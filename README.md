@@ -18,6 +18,8 @@ Specification of dataset used in the experiment are listed.
 ## Usage
 
 ```python
+from Fotomics import LogScaler,FftTransformer
+
 import numpy as np
 import pandas as pd
 from scipy.spatial import ConvexHull
