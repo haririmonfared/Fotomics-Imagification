@@ -1,8 +1,9 @@
-# Fast Fourier Transform(FFT)-nonImageData to Image
+# Fotomics: Fourier transform-based omics imagification for deep learning-based cell-identity mapping using single-cell omics profiles
 
 ## Introduction
 
-This repository contains a python implementation of Fast Fourier Transformation(FFT) algorithm that converts non-image data into images. The FFT method has been used in a project: **Omics Imagification: Transforming High-throughout Molecular Representation of a Cell into an Image**.
+This repository contains a python implementation of Fotomics algorithm that converts non-image data into images. 
+Different omics profiles, depending on the underlying technology, encompass measurements of several hundred to several thousand molecules in a biological sample or a cell. This study develops upon the concept of “omics imagification” as a process of transforming a vector representing these numerical measurements into an image with a one-to-one relationship with the corresponding sample. The proposed imagification process transforms a high-dimensional vector of molecular measurements into a two-dimensional RGB image to enable holistic molecular representation of a biological sample and to improve the classification of different biological phenotypes using automated image recognition methods in computer vision. A transformed image represents 2D coordinates of molecules in a neighbour-embedded space representing molecular abundance and gene intensity. The proposed method was applied to single-cell RNA sequencing (scRNA-seq) data to “imagify” gene expression profiles of individual cells. Our results show that a simple convolutional neural network trained on single-cell transcriptomics images accurately classifies diverse cell types outperforming the best-performing scRNA-seq classifiers such as Support Vector Machine and Random Forrest. 
 
 ![fft_flowchart](./Images/fft_flowchart.png)
 
