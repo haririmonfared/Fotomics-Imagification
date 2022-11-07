@@ -50,3 +50,17 @@ x_test_img = it.transform(x_test_norm)
 
 ![confusion_mat1](./Images/confusion_mat1.png)
 
+## Demo
+
+**deng_reads_demo.ipynb** is an example of Fotomics in action. We used the **deng_reads** dataset with 21287 features. 
+
+1. Import packages from Fotomics
+2. Read **deng_raeds** dataset (*deng-reads-RawCount-modefied.csv*) 
+3. Data preprocessing and data split
+4. Shuffle dataset by rows and columns
+5. Get labels of dataset
+6. Split data into training set and test set
+7. Use **LogScaler** to preprocess the data and use **FftTransformer** to convert data points into images of 124 pixels
+8. Display converted images 
+9. Train image data on CNN model
+10. Calculate accuracy and F1 score
