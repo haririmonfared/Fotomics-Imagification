@@ -1,4 +1,6 @@
 # Fotomics: Fourier transform-based omics imagification for deep learning-based cell-identity mapping using single-cell omics profiles
+# HOW TO USE:
+Simply, run the jupyter notebook named “deng_reads_demo.ipynb” and run commands one by one. For using your data, first you have to turn your dataset in a .csv file with labels and indexes then you can use it’s address in third box as input.
 
 ## Introduction
 
