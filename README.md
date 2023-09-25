@@ -2,6 +2,19 @@
 # HOW TO USE:
 Simply, run the jupyter notebook named “deng_reads_demo.ipynb” and run commands one by one. For using your data, first you have to turn your dataset in a .csv file with labels and indexes then you can use it’s address in third box as input.
 
+
+# What we have done so far:
+The main code tried to use RNAseq data and make images of them to classify cells by deep learning approaches. Now, we want to use ATACseq data instead. According to that, we first started to use 2 percent of our data from elsewhere by the code named “prepare_photomics.r”. This code apply to a .rdata file and get 2 percent of it and then save the result in a .csv file.
+To use this code we give three items as input:
+1-	Directory path:
+for instance we use “intra-Corces2016” folder to use it’s components. You just have to change the value of “setwd” function to change the directory path.
+2-	Read labels:
+from that folder we use a .tsv file in “input” subfolder as labels. You can use labels file address in third line
+3-	Read data:
+also in input folder, there is a .rds file which keeps the data. In line number 5 we use it’s address.
+Now you can run the code to have your .csv file from a .rds dataset. Note that you can modify output path at last line.
+
+
 ## Introduction
 
 This repository contains a python implementation of Fotomics algorithm that converts non-image data into images. \
